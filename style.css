@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,89 +6,103 @@
 
 /* header */
 
-header{
+header {
     display: flex;
     align-items: center;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    background-color: white;
 }
 
 
-.logo{
+.logo {
     height: 50px;
     margin-right: 5px;
     margin-left: 10px;
 }
 
-h1{
+h1 {
     font-size: 40px;
     font-weight: bold;
 }
 
 /* /header */
 
-/* main */
+/* container main */
 
-.container{
+.container {
     width: 70%;
     margin: 30px auto;
     padding: 25px;
     border-radius: 8px;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    background-color: white;
+
 }
 
 /* button */
 
-.click{
+.click {
     padding: 6px 12px;
     border: none;
     border-radius: 13%;
     margin-right: 10px;
 }
 
-.first{
+.first {
     background-color: #14aaf5;
     color: white;
 }
 
-.second{
+.second {
     color: grey;
 }
 
 /* /button */
 
 /* section */
-section{
+section {
     margin-top: 30px;
 }
 
-h2{
+h2 {
     font-size: 20px;
     margin-bottom: 8px;
 }
 
-ul{
+ul {
     margin: 8px 0;
     margin-left: 8px;
 }
 
-li{
+li {
     margin: 8px 0;
     display: flex;
     align-items: center;
     font-size: 15px;
 }
+
 /* icon check */
-.check{
+.check {
     color: green;
+    border: 1px solid green;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 14px;
     margin-right: 8px;
+    line-height: 1;
 }
 
-.editorial{
+.editorial {
     background-color: #14aaf5;
 }
+
 /* border */
-.border{
+.border {
     font-size: 10px;
     color: white;
     border-radius: 12px;
@@ -96,21 +110,44 @@ li{
     margin-left: 8px;
 }
 
-.goals{
+.goals {
     background-color: #ab5de6;
 }
 
 /* cross x */
 
-.cross{
+.cross {
     color: red;
+    border: 1px solid red;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    font-size: 14px;
     margin-right: 8px;
+    line-height: 1;
 }
 
-.recruiting{
+.recruiting {
     background-color: #2cc6ab;
 }
 
-.mobile{
+.mobile {
     background-color: #ff9b00;
+}
+
+.website {
+    background-color: #ec4a9d;
+}
+
+.sales {
+    background-color: #a3d116;
+}
+
+
+body {
+    background-color: #edfbfc;
+    min-height: 1px;
 }
