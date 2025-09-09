@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* header */
+
 header{
     display: flex;
     align-items: center;
@@ -23,6 +25,10 @@ h1{
     font-weight: bold;
 }
 
+/* /header */
+
+/* main */
+
 .container{
     width: 70%;
     margin: 30px auto;
@@ -31,7 +37,7 @@ h1{
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
 }
 
-
+/* button */
 
 .click{
     padding: 6px 12px;
@@ -42,4 +48,69 @@ h1{
 
 .first{
     background-color: #14aaf5;
+    color: white;
+}
+
+.second{
+    color: grey;
+}
+
+/* /button */
+
+/* section */
+section{
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+ul{
+    margin: 8px 0;
+    margin-left: 8px;
+}
+
+li{
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+/* icon check */
+.check{
+    color: green;
+    margin-right: 8px;
+}
+
+.editorial{
+    background-color: #14aaf5;
+}
+/* border */
+.border{
+    font-size: 10px;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 8px;
+    margin-left: 8px;
+}
+
+.goals{
+    background-color: #ab5de6;
+}
+
+/* cross x */
+
+.cross{
+    color: red;
+    margin-right: 8px;
+}
+
+.recruiting{
+    background-color: #2cc6ab;
+}
+
+.mobile{
+    background-color: #ff9b00;
 }
