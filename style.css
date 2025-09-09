@@ -1,8 +1,24 @@
-.logo{
-    padding-left: 15px;
-    padding-top: 5px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.title{
-    font-size: 3.5rem;
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+
+.logo{
+    height: 50px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
 }
